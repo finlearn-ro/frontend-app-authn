@@ -11,10 +11,10 @@
 // ----------------------------
 // #COLORS
 // ----------------------------
-$white: #FFFFFF;
+$white: #ffffff;
 
 // social platforms
-$facebook-blue: #1877F2;
+$facebook-blue: #1877f2;
 $facebook-focus-blue: #29487d;
 $google-blue: #4285f4;
 $google-focus-blue: #287ae6;
@@ -24,7 +24,6 @@ $apple-black: #000000;
 $apple-focus-black: $apple-black;
 
 $elevation-level-2-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.15);
-
 
 // Forgot Password Page
 .forgot-password-button-width {
@@ -92,7 +91,6 @@ $elevation-level-2-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.15);
   font-size: 0.875rem;
   line-height: 1.5;
   height: 2.75rem;
-
 }
 
 .btn-social {
@@ -109,7 +107,7 @@ $elevation-level-2-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.15);
   height: 36px;
   color: $primary;
 
-  .btn-tpa__image-icon{
+  .btn-tpa__image-icon {
     background-color: transparent;
     max-height: 24px;
     max-width: 24px;
@@ -183,7 +181,7 @@ $elevation-level-2-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.15);
 
   .ibtn-tpa__image-icon {
     max-height: 1.8em;
-    max-width: 2.0em;
+    max-width: 2em;
   }
 
   &:hover,
@@ -291,7 +289,8 @@ select.form-control {
 #password-requirement-left {
   opacity: 1;
   @extend .x-small;
-  filter: drop-shadow($elevation-level-2-shadow) drop-shadow($elevation-level-2-shadow) !important;
+  filter: drop-shadow($elevation-level-2-shadow)
+    drop-shadow($elevation-level-2-shadow) !important;
   right: 0.2rem !important;
   .tooltip-inner {
     background: $white;
@@ -305,7 +304,8 @@ select.form-control {
 
 #password-requirement-top {
   @extend .x-small;
-  filter: drop-shadow($elevation-level-2-shadow) drop-shadow($elevation-level-2-shadow) !important;
+  filter: drop-shadow($elevation-level-2-shadow)
+    drop-shadow($elevation-level-2-shadow) !important;
   opacity: 1;
   width: 90%;
   bottom: 10px !important;
@@ -321,7 +321,6 @@ select.form-control {
   .arrow::before {
     border-top-color: $white;
   }
-
 }
 
 .yellow-border {
@@ -336,11 +335,10 @@ select.form-control {
   color: $gray-700;
 }
 
-.logistration-button:hover{
+.logistration-button:hover {
   color: $gray-700;
   text-decoration: none;
 }
-
 
 #forgot-password {
   &:hover {
@@ -364,18 +362,24 @@ select.form-control {
   font-size: 0.75rem;
 }
 
-.form-group__form-field .form-control:focus ~ .pgn__form-control-floating-label .pgn__form-control-floating-label-content {
-    font-size: 16px;
-    color: $primary-700;
+.form-group__form-field
+  .form-control:focus
+  ~ .pgn__form-control-floating-label
+  .pgn__form-control-floating-label-content {
+  font-size: 16px;
+  color: $primary-700;
 }
 
-.form-group__form-field .form-control:not([value='']):not(:focus) ~
-  .pgn__form-control-floating-label .pgn__form-control-floating-label-content {
+.form-group__form-field
+  .form-control:not([value=""]):not(:focus)
+  ~ .pgn__form-control-floating-label
+  .pgn__form-control-floating-label-content {
   font-size: 16px;
 }
 
 .pgn__form-group {
   margin-bottom: 1.75rem;
+  display: none;
 }
 
 .form-text-size {
@@ -406,13 +410,11 @@ select.form-control {
   }
 }
 
-
 @media (max-width: 767px) {
   .welcome-page-content {
     padding-top: 1.5rem !important;
   }
 }
-
 
 .alert {
   p:last-child {
@@ -451,7 +453,7 @@ select.form-control {
   font-weight: normal;
   font-size: 0.875rem;
   line-height: 1.5rem;
-  color: $primary-700
+  color: $primary-700;
 }
 
 .pgn__form-control-decorator-trailing {
